@@ -20,15 +20,6 @@
   <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
 </p>
 
----
-
-## ✨ Live Preview (Animated)
-
-<p align="center">
-  <a href="https://govind-weather-app.netlify.app/" target="_blank">
-    <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="85%"/>
-  </a>
-</p>
 
 ---
 
