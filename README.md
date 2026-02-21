@@ -1,83 +1,118 @@
-<p align="center">
-  <img src="https://media.giphy.com/media/26u4nJPf0JtQPdStq/giphy.gif" width="120" />
-</p>
+# 🌤 Weather App
 
-<h1 align="center">🌦️ Weather App</h1>
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![API](https://img.shields.io/badge/API-Weather%20API-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-<p align="center">
-  <b>Real-time weather application with a clean UI and smooth experience</b>
-</p>
-
-<p align="center">
-  🚀 <a href="https://govind-weather-app.netlify.app/" target="_blank"><b>LIVE DEMO</b></a>
-</p>
-
-<p align="center">
-  <a href="https://govind-weather-app.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/LIVE-Weather%20App-brightgreen?style=for-the-badge&logo=netlify"/>
-  </a>
-  <img src="https://img.shields.io/badge/HTML-CSS-JS-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
-</p>
-
+A responsive web-based Weather Application that provides real-time weather information for any city using a public Weather API.
 
 ---
 
-## 📌 About the Project
+## 📌 Overview
 
-This **Weather App** provides **real-time weather updates** for any city or your **current location**.  
-It is lightweight, fast, and fully responsive—perfect for learning API integration and frontend fundamentals.
+Weather App is a lightweight and user-friendly web application that allows users to check real-time weather conditions of any city worldwide.
+
+The application fetches live weather data from an external API and dynamically updates the UI with temperature, weather conditions, humidity, and more.
+
+This project demonstrates:
+- API integration
+- Asynchronous JavaScript (fetch/async-await)
+- DOM manipulation
+- Responsive UI design
 
 ---
 
 ## 🚀 Features
 
-✔ Live weather search by city name  
-✔ Current location weather support  
-✔ Temperature, humidity, wind & cloud info  
-✔ Responsive UI for all devices  
-✔ Deployed and live on Netlify  
+✔ Search weather by city name  
+✔ Real-time temperature updates  
+✔ Displays humidity & weather conditions  
+✔ Error handling for invalid city names  
+✔ Responsive design for all devices  
 
 ---
 
-## 🛠️ Tech Stack
+## 🏗 Project Structure
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js" />
-</p>
 
-- **HTML** – Structure  
-- **CSS** – Styling & layout  
-- **JavaScript** – API logic  
-- **Weather API** – Real-time data  
+Weather-App/
+│
+├── assets/ # Images & icons
+├── index.html # Main HTML file
+├── styles.css # Styling file
+├── index.js # JavaScript logic & API calls
+└── README.md
+
+
+---
+
+## 🛠 Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- Weather API (e.g., OpenWeatherMap API)
 
 ---
 
 ## ⚙️ How It Works
 
-<p align="center">
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="70%" />
-</p>
-
-1️⃣ Enter a city name or allow location access  
-2️⃣ App fetches weather data from API  
-3️⃣ UI updates instantly with live data  
-
----
-
-## 🌐 Live Demo
-
-👉 **Click here to view the live app:**  
-🔗 https://govind-weather-app.netlify.app/
+1. User enters city name.
+2. JavaScript sends API request.
+3. Weather data is fetched using fetch().
+4. DOM updates dynamically with:
+   - Temperature
+   - Weather condition
+   - Humidity
+   - Wind speed
 
 ---
 
-## 📁 Project Structure
+## 🔧 Installation & Setup
+
+1️⃣ Clone the repository
 
 ```bash
-weather-app/
-│
-├── index.html
-├── style.css
-├── script.js
-└── assets/
+git clone https://github.com/govindchauhan-s/Weather-App.git
+cd Weather-App
+
+2️⃣ Open in browser
+
+Simply open index.html in your browser.
+
+🔑 API Configuration
+
+If using OpenWeatherMap:
+
+Create account on OpenWeatherMap.
+
+Generate API key.
+
+Replace the API key inside index.js.
+
+Example:
+
+const apiKey = "YOUR_API_KEY";
+📈 Future Improvements
+
+Add 5-day weather forecast
+
+Add geolocation support
+
+Add dark/light mode toggle
+
+Improve UI animations
+
+Deploy live version
+
+👨‍💻 Author
+
+Govind Singh Chauhan
+B.Tech – Computer Science Engineering
+Frontend & Machine Learning Enthusiast
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
